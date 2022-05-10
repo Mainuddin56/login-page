@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Source+Serif+4:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000fd;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Source Serif 4', sans-serif;
+}
+.body-section{
+    width: 60vw;
+    height: 44vw;
+    background-color: brown;
+    margin-left: 20%;
+    margin-top: .8rem;
+    border-radius: .1rem;
+}
+.signup-sign{
+    display: flex;
+    padding: 4rem;
+    position: relative;
+    border-radius: .4rem;
+    box-shadow: 0 0 10px #000;
+}
+.image{
+    background: linear-gradient(rgba(110, 226, 203, 0.979), #6ee2cbb3), url(images/38604.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1rem;
+    width: 50%;
+    height: 77vh;
+    
+}
+.navication a{
+    font-size: 2rem;
+    color: #fff;
+}
+.navication p{
+    text-align: center;
+    margin-top: 80%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.signup{
+    background-color: #08111b;
+    width: 50%;
+
+}
+.login{
+    margin: 2rem;
+}
+.login button{
+    float: right;
+    padding: .5rem;
+    cursor: pointer;
+    background: linear-gradient(rgba(121, 143, 143, 0.589), rgba(110, 226, 203, 0.678));
+    border: none;
+    border-radius: 10px;
+}
+.login button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+.signin{
+    margin-right: .2rem;
+}
+.form{
+    content: '';
+    position: absolute;
+    margin-top: 10%;
+}
+.heading{
+    margin-bottom: 2rem;
+    color: #777;
+}
+.heading a{
+    text-decoration: none;
+    color: #777;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    position: relative;
+    text-transform: lowercase;
+    
+
+}
+.heading a::after{
+    content: '';
+    width: 1rem;
+    height: .2rem;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -.1rem;
+    border-radius: .2rem;
+    transition: 1s;
+}
+.heading a:hover::after{
+    width: 100%;
+}
+.text-box {
+    width: 100%;
+    overflow: hidden;
+    font-size: 2rem;
+    padding: .1rem 0;
+    margin: .8rem 0;
+    border-bottom: 1px solid #4caf50;
+}
+.text-box i{
+    width: 2px;
+    float: left;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+}
+.text-box input{
+    border: none;
+    outline: none;
+    background: none;
+    color: #fff;
+    font-size: 1rem;
+    float: left;
+    padding-left: 2rem;
+}
+/*
+.image{
+    width: 50%;
+    height: 96vh;
+    background: url(images/38604.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    margin-bottom: 4rem;
+}
+*/
